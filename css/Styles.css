@@ -1,0 +1,71 @@
+div.topnavbar
+{
+    overflow: hidden;
+    background-color: rgb(87, 74, 207);
+}
+
+/* Styles the link itself */
+div.topnavbar a
+{
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Styles the link when hovered. */
+div.topnavbar a:hover
+{
+    background-color: rgb(51, 58, 160);
+    color: rgb(255, 255, 255);
+}
+
+body 
+{
+    margin: 0; 
+    background-color: rgb(255, 255, 255);
+}
+
+h1
+{
+    margin: 0;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+}
+
+p.defaultText
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+button.contactButton
+{
+    background-color: rgb(87, 74, 207);
+    color: rgb(255, 255, 255);
+    padding: 15px 15px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.active, button.contactButton:hover
+{
+    background-color: rgb(51, 58, 160);
+    color: rgb(255, 255, 255);
+}
+
+.collapseContent
+{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .4s ease-out;
+    background-color: rgb(87, 74, 207);
+    color: rgb(255, 255, 255);
+}

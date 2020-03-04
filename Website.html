@@ -14,7 +14,7 @@
 
         <!-- Creates a symbolic link to the file -->
         <link rel="icon" href="/NameIcon.png" type="image/x-icon">
-        <link rel="stylesheet" href="Styles.css"> 
+        <link rel="stylesheet" href="css/Styles.css"> 
     </head>
 
     <!-- Semantics for tags listed here: https://www.w3schools.com/html/html5_semantic_elements.asp -->
@@ -22,17 +22,29 @@
         <div class="topnavbar">
             <!-- 
             TODO: change # to / and make 4 seperate pages.
-                  Add Scrolling to test that it is persistant
+                  https://formspree.io/ make this instead of the collapsible
+                  https://codepen.io/ look at this tomorrow
             -->
             <a href="#home">Home</a>
-            <a href="#news">Resume</a>
-            <a href="#contact">Contact</a>
+            <a href="#me">Resume</a>
             <a href="#about">About</a>
+            <button class="contactButton">Contact me!</button><div class="collapseContent">
+                <p> Email me at: alantran3264@gmail.com </p>
+            </div>
+            
+            
         </div>
 
         <h1> Introduction </h1>
         
-        <p class = defaultText> My name is Alan Tran</p> <!-- Classes are defined in the html and can be styled in the css-->
+        <p class=defaultText> My name is Alan Tran and I am a developer living in Chicago.</p> <!-- Classes are defined in the html and can be styled in the css-->
+
+        <!--<button class="contactButton">Contact me!</button> 
+        <div class="collapseContent">
+            <p> Test </p>
+        </div> -->
+
+        <script src=js/script.js></script>
     </body>
 
 </html> 
